@@ -1,0 +1,31 @@
+.main-div {
+    text-align: center;
+    width: 4cm;
+    height: 7cm;
+    margin: 4px;
+    background-color: pink;
+    position: absolute;
+    left: -10cm;
+}
+
+text {
+    margin-bottom: 5px;
+}
+
+#roll{
+    width: 2cm;
+    position: relative;
+    top: 3cm;
+    height: 1cm;
+}
+#dice1 {
+    margin: 5px;
+    width: 0.75cm;
+    height: 0.75cm;
+}
+
+#dice2 {
+    margin: 5px;
+    width: 0.75cm;
+    height: 0.75cm;
+}

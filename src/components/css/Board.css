@@ -1,0 +1,10 @@
+.Board {
+  width: 15cm;
+  height: 15cm;
+  margin: auto;
+  position: relative;
+  left: 14cm;
+  float:left;
+  z-index: -1;
+  background-color: gray;
+}
