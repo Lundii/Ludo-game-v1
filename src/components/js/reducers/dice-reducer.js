@@ -9,7 +9,7 @@
 // }
 
 const initialState = {
-    value1: 0,
+    value: 0,
 }
 
 export default function( state=initialState, action){

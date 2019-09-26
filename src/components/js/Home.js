@@ -5,7 +5,7 @@ function Home(){
         width: "3cm",
         height: "3cm",
         position: "absolute",
-        zIndex: "1",
+        zIndex: "0",
         top: "6cm",
         left: "6cm",
         border: "0.02px solid black",

@@ -1,11 +1,12 @@
 .main-div {
     text-align: center;
-    width: 4cm;
-    height: 7cm;
-    margin: 4px;
-    background-color: pink;
+    width: 3cm;
+    height: 3cm;
+    background-color: gray;
     position: absolute;
-    left: -10cm;
+    left: 6cm;
+    top: 6cm;
+    z-index: 1;
 }
 
 text {
@@ -15,17 +16,18 @@ text {
 #roll{
     width: 2cm;
     position: relative;
-    top: 3cm;
+    top: 0cm;
     height: 1cm;
+    margin: 3 px;
 }
 #dice1 {
-    margin: 5px;
+    margin: 3px;
     width: 0.75cm;
     height: 0.75cm;
 }
 
 #dice2 {
-    margin: 5px;
+    margin: 3px;
     width: 0.75cm;
     height: 0.75cm;
 }

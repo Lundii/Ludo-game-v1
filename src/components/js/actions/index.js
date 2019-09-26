@@ -1,3 +1,36 @@
+export const AddOccupied = payload => {
+    return{
+        type: 'ADD_OCCUPIED',
+        payload: payload,
+    }
+}
+
+export const DiceClicked = (payload) => {
+    
+    return {
+        type: "DICE_CLICKED",
+        payload: payload
+    }
+}
+
+export const RemoveOccupied = payload => {
+  
+    return{
+        type: 'REMOVE_OCCUPIED',
+        payload: payload,
+
+    }
+}
+
+export const ReturnHome = (id, color, payload) => {
+    return {
+        type: 'RETURN_HOME',
+        id: id,
+        color: color,
+        payload: payload
+    }
+}
+
 export const ClickSeed = (items, color) => {
    
     var payload

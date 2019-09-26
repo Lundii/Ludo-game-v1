@@ -61,10 +61,10 @@ class Board extends Component {
         <PlayerBoard />
         <Home />
         <PlayerHome color="blue"/>
-        <Track top="0cm" left="6cm"/>
-        <Track top="9cm" left="6cm"/>
-        <Track top="6cm" rotate="rotate(90deg)" left="6cm"/>
-        <Track top="6cm" rotate="rotate(90deg)" left="15cm"/>
+        <Track top="6cm" left="9cm" rotate="rotate(180deg)" color="rgba(255,0,0,0.4)"/>
+        <Track top="9cm" left="6cm" color="rgba(255,255,0,0.4)"/>
+        <Track top="6cm" rotate="rotate(90deg)" left="6cm" color="rgba(0,0,255,0.4)"/>
+        <Track top="9cm" rotate="rotate(270deg)" left="9cm" color="rgba(0,255,0,0.4)"/>
         <PlayerHome color="red" left="9cm" top="-6cm"/>
         <PlayerHome color="yellow" top="-3cm"/>
         <PlayerHome color="green" top="-9cm" left="9cm" />

@@ -9,7 +9,6 @@ import Reducers from '../src/components/js/reducers/index';
 
 
 const store = createStore(Reducers);
-
 ReactDOM.render(
 <Provider store={store}>
     <Board />
